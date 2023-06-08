@@ -4,7 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "dev":"nodemon index.js"
+    "build": "webpack",
+    "dev":"nodemon index.js",
+    "start": "node index.js"
   },
   "author": "fo17007@ues.edu.sv",
   "license": "ISC",
