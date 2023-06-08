@@ -9,8 +9,8 @@ function requestController() {
 // Configurar nuestro servidor
 const server = http.createServer(requestController)
 
-const PORT =  process.env.PORT
+const PORT = process.env.PORT
 
-server.listen(PORT, function(){
-    console.log("Aplicacion Coriento en puerto: " + PORT)
+server.listen(PORT, function () {
+  console.log("Aplicación corriendo en puerto: " + PORT)
 })
